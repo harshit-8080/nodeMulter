@@ -6,7 +6,7 @@ const postRouter = require("./routes/post.route");
 
 app.use(postRouter);
 
-
+app.use(express.json());
 // app.get("/", (req, res)=>{
 //     res.status(200).json({
 //         "msg":"data"
